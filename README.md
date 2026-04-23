@@ -26,9 +26,18 @@ If the eyes remain closed for a certain duration, an alert sound is triggered.
 - Pygame
 
 ---
-
 ## ▶️ How to Run
 
 ### 1. Install dependencies
 ```bash
-pip install opencv-python mediapipe numpy pandas matplotlib pygame
+pip install opencv-python mediapipe pygame
+```
+
+### 2. Run the project
+```bash
+python detector_fadiga.py
+```
+
+---
+
+This project can be used in driver monitoring systems to prevent accidents.
